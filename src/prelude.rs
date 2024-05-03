@@ -1,9 +1,8 @@
 // 2024-05-03 falsefox
 // GPL 3.0 Licensed
 
-/// The struct template that contains a user's information.
-/// 
-struct Info {
+/// The struct template that contains the users's information.
+pub struct Info {
     name: String,
     pronouns: Vec<String>,
     email: String,
@@ -11,6 +10,7 @@ struct Info {
     website: String,
 }
 
+// The builder for the struct.
 fn builder() -> Info {
     let falsefox_info: Info = Info {
         name: String::from("Fox"),
@@ -22,7 +22,7 @@ fn builder() -> Info {
     falsefox_info
 }
 
-/// Grabs all info
+/// Grabs all info and returns a struct.
 pub fn get_info() -> Info {
     builder()
 }
