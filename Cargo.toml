@@ -4,9 +4,11 @@ description = "Packatge experiment for falsefox"
 version = "0.1.1"
 edition = "2021"
 license = "GPL-3.0"
-homepage = "https://falsefox.dev"
+authors = ["falsefox <https://falsefox.dev>"]
+homepage = "https://github.com/false-fox/falsefox-crate"
 repository = "https://github.com/false-fox/falsefox-crate"
 readme = "./README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
+[lib]
+path = "src/lib.rs"
 [dependencies]
