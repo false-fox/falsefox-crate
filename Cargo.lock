@@ -3,9 +3,5 @@
 version = 3
 
 [[package]]
-name = "docs"
-version = "0.1.0"
-
-[[package]]
 name = "falsefox"
-version = "0.1.2"
+version = "0.1.3"
