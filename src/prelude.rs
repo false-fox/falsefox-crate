@@ -1,7 +1,18 @@
 // 2024-05-03 falsefox
 // GPL 3.0 Licensed
 
-/// The struct template that contains falsefox's information.
+//! ## falsefox is an experiment by falsefox.
+//! The crate is not intended to be that useful, it is mostly here as a learning utility.
+//! 
+//! ## Example
+//! ```rust
+//! use falsefox;
+//! fn main () {
+//!     println!("{:?}", falsefox::get_github());
+//!     // https://github.com/false-fox
+//! }
+//! ```
+
 pub struct Info {
     pub name: String,
     pub pronouns: Vec<String>,
@@ -52,7 +63,6 @@ pub fn get_pronouns() -> Vec<String> {
     builder().pronouns
 }
 
-
 #[cfg(test)]
 mod tests {
     use super::*;
@@ -63,6 +73,5 @@ mod tests {
         assert_eq!(builder().pronouns, get_pronouns());
         assert_eq!(builder().name, get_name());
         assert_eq!(builder().email, get_email());
- 
     }
 }
