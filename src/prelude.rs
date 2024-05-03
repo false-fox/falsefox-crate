@@ -3,11 +3,11 @@
 
 /// The struct template that contains the users's information.
 pub struct Info {
-    name: String,
-    pronouns: Vec<String>,
-    email: String,
-    github: String,
-    website: String,
+    pub name: String,
+    pub pronouns: Vec<String>,
+    pub email: String,
+    pub github: String,
+    pub website: String,
 }
 
 // The builder for the struct.
