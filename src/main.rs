@@ -1,3 +1,4 @@
-fn main() {
-    println!("Hello, world!");
+pub mod prelude;
+fn main () {
+    println!("{:?}", crate::prelude::get_github());
 }
