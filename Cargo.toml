@@ -1,0 +1,12 @@
+[package]
+name = "falsefox"
+description = "Packatge experiment for falsefox"
+version = "0.1.0"
+edition = "2021"
+license = "GPL3.0"
+homepage = "https://falsefox.dev"
+repository = "https://github.com/false-fox/falsefox-crate"
+readme = "./README.md"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
