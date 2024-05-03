@@ -10,5 +10,5 @@ repository = "https://github.com/false-fox/falsefox-crate"
 readme = "./README.md"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 [lib]
-path = "src/lib.rs"
+path = "src/prelude.rs"
 [dependencies]
